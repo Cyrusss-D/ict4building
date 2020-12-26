@@ -1,3 +1,31 @@
+==== Base does not Surround subsurface details ====
+Surface=BLOCK1:ZONE3_WALL_5_0_0 No-Overlap
+Surface#=   50 NSides=    4
+Vertex     1=(           5.62,           3.50,           3.50)
+Vertex     2=(           5.62,           3.50,           0.00)
+Vertex     3=(           5.62,           8.50,           0.00)
+Vertex     4=(           5.62,           8.50,           3.50)
+SubSurface=BLOCK1:ZONE3_WALL_5_0_0_0_0_0_WIN
+Surface#=   51 NSides=    4
+Vertex     1=(          -0.00,           0.23,           1.31)
+Vertex     2=(          -0.00,           0.23,           0.11)
+Vertex     3=(          -0.00,           2.84,           0.11)
+Vertex     4=(          -0.00,           2.84,           1.31)
+================================
+==== Base does not Surround subsurface details ====
+Surface=BLOCK1:ZONE2_WALL_3_0_0 No-Overlap
+Surface#=   69 NSides=    4
+Vertex     1=(          -5.38,           8.50,           3.50)
+Vertex     2=(          -5.38,           8.50,           0.00)
+Vertex     3=(          -5.38,           3.50,           0.00)
+Vertex     4=(          -5.38,           3.50,           3.50)
+SubSurface=BLOCK1:ZONE2_WALL_3_0_0_0_0_0_WIN
+Surface#=   70 NSides=    4
+Vertex     1=(          -0.00,           2.84,           1.31)
+Vertex     2=(          -0.00,           2.84,           0.11)
+Vertex     3=(          -0.00,           0.23,           0.11)
+Vertex     4=(          -0.00,           0.23,           1.31)
+================================
 Shadowing Combinations
 ..Solar Distribution=FullExterior
 ..In the following, only the first 10 reference surfaces will be shown.

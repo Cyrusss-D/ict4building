@@ -1,12 +1,7 @@
-Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55,
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.25 19:33,
    ** Warning ** Timestep: Requested number (2) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
-   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
-   **   ~~~   ** ..Location object=GINEVRARESIDENCE (O1-O1:31-12)  (01-01:31-12)
-   **   ~~~   ** ..Weather File Location=Chicago Ohare Intl Ap IL USA TMY3 WMO#=725300
-   **   ~~~   ** ..due to location differences, Latitude difference=[4.27] degrees, Longitude difference=[94.05] degrees.
-   **   ~~~   ** ..Time Zone difference=[7.0] hour(s), Elevation difference=[51.68] percent, [215.00] meters.
    ** Warning ** GetSurfaceData: Construction PROJECT PARTITION of interzone surface BLOCK1:ZONE3_PARTITION_2_0_0 does not have the same materials in the reverse order as the construction PROJECT PARTITION_REV of adjacent surface BLOCK1:ZONE1_PARTITION_4_0_10004
    **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
    **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
@@ -24,7 +19,7 @@ Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55,
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
    ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
    **   ~~~   **  Routine=CalcPurchAirLoads, During Sizing, Environment=WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12), at Simulation time=01/15 24:00 - 24:30
-   **   ~~~   **  Input Temperature=-1223.78
+   **   ~~~   **  Input Temperature=-2022.28
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
@@ -86,6 +81,22 @@ Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55,
    ************* There are 5 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
+   ************* ===== Recurring Surface Error Summary =====
+   ************* The following surface error messages occurred.
+   *************
+   ************* Base Surface does not surround subsurface errors occuring...
+   ************* Check that the GlobalGeometryRules object is expressing the proper starting corner and direction [CounterClockwise/Clockwise]
+   *************
+   ** Warning ** Base surface does not surround subsurface (CHKSBS), Overlap Status=No-Overlap
+   **   ~~~   **   The base surround errors occurred 1 times.
+   **   ~~~   ** Surface "BLOCK1:ZONE3_WALL_5_0_0" misses SubSurface "BLOCK1:ZONE3_WALL_5_0_0_0_0_0_WIN"
+   ** Warning ** Base surface does not surround subsurface (CHKSBS), Overlap Status=No-Overlap
+   **   ~~~   **   The base surround errors occurred 1 times.
+   **   ~~~   ** Surface "BLOCK1:ZONE2_WALL_3_0_0" misses SubSurface "BLOCK1:ZONE2_WALL_3_0_0_0_0_0_WIN"
+   *************
+   **   ~~~   **   The base surround errors occurred 2 times (total).
+   *************
+   *************
    ************* ===== Recurring Error Summary =====
    ************* The following recurring error messages occurred.
    *************
@@ -93,7 +104,7 @@ Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55,
    *************  **   ~~~   **   This error occurred 3 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 3 times.
-   *************  **   ~~~   **   Max=-1223.781982 C  Min=-4799.723389 C
+   *************  **   ~~~   **   Max=-2022.283386 C  Min=-9373.907715 C
    *************
    *************
    ************* ===== Final Error Summary =====
@@ -104,5 +115,5 @@ Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 6 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 17 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  4.25sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 5 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 18 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  5.25sec

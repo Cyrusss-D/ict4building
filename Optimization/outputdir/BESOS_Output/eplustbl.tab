@@ -1,8 +1,8 @@
-Program Version	EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55
+Program Version	EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.25 19:33
 Tabular Output Report in Format: 	Tab
 
 Building:	Building
-Environment:	GINEVRARESIDENCE (O1-O1:31-12) ** Chicago Ohare Intl Ap IL USA TMY3 WMO#=725300
+Environment:	GINEVRARESIDENCE (O1-O1:31-12) ** GENEVA - CHE IWEC Data WMO#=067000
 
 ----------------------------------------------------------------------------------------------------
 REPORT:	Annual Building Utility Performance Summary
@@ -12,10 +12,10 @@ Values gathered over      8760.00 hours
 Site and Source Energy
 
 		Total Energy [kWh]	Energy Per Total Building Area [kWh/m2]	Energy Per Conditioned Building Area [kWh/m2]
-	Total Site Energy	8375.75	178.73	178.73
-	Net Site Energy	8375.75	178.73	178.73
-	Total Source Energy	28381.76	605.62	605.62
-	Net Source Energy	28381.76	605.62	605.62
+	Total Site Energy	5682.53	121.26	121.26
+	Net Site Energy	5682.53	121.26	121.26
+	Total Source Energy	19810.86	422.73	422.73
+	Net Source Energy	19810.86	422.73	422.73
 
 
 Site to Source Energy Conversion Factors
@@ -47,9 +47,9 @@ Building Area
 End Uses
 
 		Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
-	Heating	0.00	0.00	0.00	0.00	5561.95	0.00
-	Cooling	0.00	0.00	0.00	460.15	0.00	0.00
-	Interior Lighting	191.34	0.00	0.00	0.00	0.00	0.00
+	Heating	0.00	0.00	0.00	0.00	3304.64	0.00
+	Cooling	0.00	0.00	0.00	2.60	0.00	0.00
+	Interior Lighting	212.97	0.00	0.00	0.00	0.00	0.00
 	Exterior Lighting	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	1389.80	0.00	0.00	0.00	0.00	0.00
 	Exterior Equipment	0.00	0.00	0.00	0.00	0.00	0.00
@@ -62,16 +62,16 @@ End Uses
 	Refrigeration	0.00	0.00	0.00	0.00	0.00	0.00
 	Generators	0.00	0.00	0.00	0.00	0.00	0.00
 							
-	Total End Uses	1581.14	0.00	0.00	460.15	6334.46	12.10
+	Total End Uses	1602.78	0.00	0.00	2.60	4077.15	12.10
 Note: District heat appears to be the principal heating source based on energy usage.
 
 
 End Uses By Subcategory
 
 		Subcategory	Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
-	Heating	General	0.00	0.00	0.00	0.00	5561.95	0.00
-	Cooling	General	0.00	0.00	0.00	460.15	0.00	0.00
-	Interior Lighting	General	191.34	0.00	0.00	0.00	0.00	0.00
+	Heating	General	0.00	0.00	0.00	0.00	3304.64	0.00
+	Cooling	General	0.00	0.00	0.00	2.60	0.00	0.00
+	Interior Lighting	General	212.97	0.00	0.00	0.00	0.00	0.00
 	Exterior Lighting	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	ELECTRIC EQUIPMENT#Block1:Zone3#07	746.41	0.00	0.00	0.00	0.00	0.00
 		ELECTRIC EQUIPMENT#Block1:Zone1#07	144.28	0.00	0.00	0.00	0.00	0.00
@@ -93,19 +93,19 @@ Normalized Metrics
 Utility Use Per Conditioned Floor Area
 
 		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
-	Lighting	4.08	0.00	0.00	0.00	0.00	0.00
-	HVAC	0.00	0.00	0.00	9.82	135.17	0.26
+	Lighting	4.54	0.00	0.00	0.00	0.00	0.00
+	HVAC	0.00	0.00	0.00	0.06	87.00	0.26
 	Other	29.66	0.00	0.00	0.00	0.00	0.00
-	Total	33.74	0.00	0.00	9.82	135.17	0.26
+	Total	34.20	0.00	0.00	0.06	87.00	0.26
 
 
 Utility Use Per Total Floor Area
 
 		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
-	Lighting	4.08	0.00	0.00	0.00	0.00	0.00
-	HVAC	0.00	0.00	0.00	9.82	135.17	0.26
+	Lighting	4.54	0.00	0.00	0.00	0.00	0.00
+	HVAC	0.00	0.00	0.00	0.06	87.00	0.26
 	Other	29.66	0.00	0.00	0.00	0.00	0.00
-	Total	33.74	0.00	0.00	9.82	135.17	0.26
+	Total	34.20	0.00	0.00	0.06	87.00	0.26
 
 
 Electric Loads Satisfied
@@ -119,12 +119,12 @@ Electric Loads Satisfied
 	Net Decrease in On-Site Storage	0.000	0.00
 	Total On-Site Electric Sources	0.000	0.00
 			
-	Electricity Coming From Utility	1581.141	100.00
+	Electricity Coming From Utility	1602.779	100.00
 	Surplus Electricity Going To Utility	0.000	0.00
-	Net Electricity From Utility	1581.141	100.00
+	Net Electricity From Utility	1602.779	100.00
 			
-	Total On-Site and Utility Electric Sources	1581.141	100.00
-	Total Electricity End Uses	1581.141	100.00
+	Total On-Site and Utility Electric Sources	1602.779	100.00
+	Total Electricity End Uses	1602.779	100.00
 
 
 On-Site Thermal Sources
@@ -168,8 +168,8 @@ Comfort and Setpoint Not Met Summary
 
 		Facility [Hours]
 	Time Setpoint Not Met During Occupied Heating	0.00
-	Time Setpoint Not Met During Occupied Cooling	41.00
-	Time Not Comfortable Based on Simple ASHRAE 55-2004	3234.50
+	Time Setpoint Not Met During Occupied Cooling	0.00
+	Time Not Comfortable Based on Simple ASHRAE 55-2004	4226.00
 
 
 Note 1: An asterisk (*) indicates that the feature is not yet implemented.
@@ -179,13 +179,13 @@ FOR:	Entire Facility
 General
 
 		Value
-	Program Version and Build	EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.06 13:55
+	Program Version and Build	EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.12.25 19:33
 	RunPeriod	GINEVRARESIDENCE (O1-O1:31-12)
-	Weather File	Chicago Ohare Intl Ap IL USA TMY3 WMO#=725300
-	Latitude [deg]	41.98
-	Longitude [deg]	-87.9
-	Elevation [m]	201.00
-	Time Zone	-6.0
+	Weather File	GENEVA - CHE IWEC Data WMO#=067000
+	Latitude [deg]	46.25
+	Longitude [deg]	6.13
+	Elevation [m]	416.00
+	Time Zone	1.00
 	North Axis Angle [deg]	270.00
 	Rotation for Appendix G [deg]	0.00
 	Hours Simulated [hrs]	8760.00
@@ -197,9 +197,9 @@ Window-Wall Ratio
 		Total	North (315 to 45 deg)	East (45 to 135 deg)	South (135 to 225 deg)	West (225 to 315 deg)
 	Gross Wall Area [m2]	73.50	38.50	17.50	0.00	17.50
 	Above Ground Wall Area [m2]	73.50	38.50	17.50	0.00	17.50
-	Window Opening Area [m2]	11.34	1.88	4.73	0.00	4.73
-	Gross Window-Wall Ratio [%]	15.42	4.90	27.00	0.00	27.00
-	Above Ground Window-Wall Ratio [%]	15.42	4.90	27.00	0.00	27.00
+	Window Opening Area [m2]	8.27	1.38	3.44	0.00	3.44
+	Gross Window-Wall Ratio [%]	11.25	3.59	19.68	0.00	19.68
+	Above Ground Window-Wall Ratio [%]	11.25	3.59	19.68	0.00	19.68
 
 
 Conditioned Window-Wall Ratio
@@ -207,9 +207,9 @@ Conditioned Window-Wall Ratio
 		Total	North (315 to 45 deg)	East (45 to 135 deg)	South (135 to 225 deg)	West (225 to 315 deg)
 	Gross Wall Area [m2]	73.50	38.50	17.50	0.00	17.50
 	Above Ground Wall Area [m2]	73.50	38.50	17.50	0.00	17.50
-	Window Opening Area [m2]	11.34	1.88	4.73	0.00	4.73
-	Gross Window-Wall Ratio [%]	15.42	4.90	27.00	0.00	27.00
-	Above Ground Window-Wall Ratio [%]	15.42	4.90	27.00	0.00	27.00
+	Window Opening Area [m2]	8.27	1.38	3.44	0.00	3.44
+	Gross Window-Wall Ratio [%]	11.25	3.59	19.68	0.00	19.68
+	Above Ground Window-Wall Ratio [%]	11.25	3.59	19.68	0.00	19.68
 
 
 Skylight-Roof Ratio
@@ -224,11 +224,11 @@ PERFORMANCE
 Zone Summary
 
 		Area [m2]	Conditioned (Y/N)	Part of Total Floor Area (Y/N)	Volume [m3]	Multipliers	Above Ground Gross Wall Area [m2]	Underground Gross Wall Area [m2]	Window Glass Area [m2]	Opening Area [m2]	Lighting [W/m2]	People [m2 per person]	Plug and Process [W/m2]
-	BLOCK1:ZONE3	25.17	Yes	Yes	85.57	1.00	35.01	0.00	4.36	4.73	2.5000	42.19	25.0000
-	BLOCK1:ZONE1	4.87	Yes	Yes	16.54	1.00	6.99	0.00	1.67	1.88	2.5000	42.19	25.0000
-	BLOCK1:ZONE2	16.83	Yes	Yes	57.22	1.00	31.50	0.00	4.36	4.73	2.5000	42.19	25.0000
-	Total	46.86			159.34		73.50	0.00	10.39	11.34	2.5000	42.19	25.0000
-	Conditioned Total	46.86			159.34		73.50	0.00	10.39	11.34	2.5000	42.19	25.0000
+	BLOCK1:ZONE3	25.17	Yes	Yes	85.57	1.00	35.01	0.00	3.13	3.44	2.5000	42.19	25.0000
+	BLOCK1:ZONE1	4.87	Yes	Yes	16.54	1.00	6.99	0.00	1.20	1.38	2.5000	42.19	25.0000
+	BLOCK1:ZONE2	16.83	Yes	Yes	57.22	1.00	31.50	0.00	3.13	3.44	2.5000	42.19	25.0000
+	Total	46.86			159.34		73.50	0.00	7.46	8.27	2.5000	42.19	25.0000
+	Conditioned Total	46.86			159.34		73.50	0.00	7.46	8.27	2.5000	42.19	25.0000
 	Unconditioned Total	0.00			0.00		0.00	0.00	0.00	0.00			
 	Not Part of Total	0.00			0.00		0.00	0.00	0.00	0.00			
 
@@ -239,9 +239,9 @@ FOR:	Entire Facility
 End Uses
 
 		Electricity [W]	Natural Gas [W]	Propane [W]	District Cooling [W]	District Heating [W]	Water [m3/s]
-	Time of Peak	01-JAN-18:30	-	-	06-JUL-13:30	07-JAN-20:00	01-JAN-09:30
-	Heating	0.00	0.00	0.00	0.00	3117.19	0.00
-	Cooling	0.00	0.00	0.00	1397.29	0.00	0.00
+	Time of Peak	01-JAN-18:30	-	-	14-JUL-17:30	01-OCT-00:00	01-JAN-09:30
+	Heating	0.00	0.00	0.00	0.00	1724.74	0.00
+	Cooling	0.00	0.00	0.00	118.59	0.00	0.00
 	Interior Lighting	117.16	0.00	0.00	0.00	0.00	0.00
 	Exterior Lighting	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	292.90	0.00	0.00	0.00	0.00	0.00
@@ -251,18 +251,18 @@ End Uses
 	Heat Rejection	0.00	0.00	0.00	0.00	0.00	0.00
 	Humidification	0.00	0.00	0.00	0.00	0.00	0.00
 	Heat Recovery	0.00	0.00	0.00	0.00	0.00	0.00
-	Water Systems	0.00	0.00	0.00	0.00	261.87	0.00
+	Water Systems	0.00	0.00	0.00	0.00	0.00	0.00
 	Refrigeration	0.00	0.00	0.00	0.00	0.00	0.00
 	Generators	0.00	0.00	0.00	0.00	0.00	0.00
 							
-	Total End Uses	410.06	0.00	0.00	1397.29	3379.05	0.00
+	Total End Uses	410.06	0.00	0.00	118.59	1724.74	0.00
 
 
 End Uses By Subcategory
 
 		Subcategory	Electricity [W]	Natural Gas [W]	Propane [W]	District Cooling [W]	District Heating [W]	Water [m3/s]
-	Heating	General	0.00	0.00	0.00	0.00	3117.19	0.00
-	Cooling	General	0.00	0.00	0.00	1397.29	0.00	0.00
+	Heating	General	0.00	0.00	0.00	0.00	1724.74	0.00
+	Cooling	General	0.00	0.00	0.00	118.59	0.00	0.00
 	Interior Lighting	General	117.16	0.00	0.00	0.00	0.00	0.00
 	Exterior Lighting	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	ELECTRIC EQUIPMENT#Block1:Zone3#07	157.30	0.00	0.00	0.00	0.00	0.00
@@ -274,9 +274,9 @@ End Uses By Subcategory
 	Heat Rejection	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Humidification	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Heat Recovery	General	0.00	0.00	0.00	0.00	0.00	0.00
-	Water Systems	DHW Block1:Zone3	0.00	0.00	0.00	0.00	140.64	0.00
-		DHW Block1:Zone1	0.00	0.00	0.00	0.00	27.19	0.00
-		DHW Block1:Zone2	0.00	0.00	0.00	0.00	94.04	0.00
+	Water Systems	DHW Block1:Zone3	0.00	0.00	0.00	0.00	0.00	0.00
+		DHW Block1:Zone1	0.00	0.00	0.00	0.00	0.00	0.00
+		DHW Block1:Zone2	0.00	0.00	0.00	0.00	0.00	0.00
 	Refrigeration	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Generators	General	0.00	0.00	0.00	0.00	0.00	0.00
 
@@ -287,9 +287,9 @@ FOR:	Entire Facility
 ZoneHVAC:IdealLoadsAirSystem
 
 		Design Size Maximum Heating Air Flow Rate [m3/s]	Design Size Maximum Sensible Heating Capacity [W]	Design Size Maximum Cooling Air Flow Rate [m3/s]	Design Size Maximum Total Cooling Capacity [W]
-	BLOCK1:ZONE3 IDEAL LOADS AIR	0.082670	1509.24	0.036757	721.91
-	BLOCK1:ZONE1 IDEAL LOADS AIR	0.021334	389.37	0.006864	135.77
-	BLOCK1:ZONE2 IDEAL LOADS AIR	0.066750	1218.57	0.028433	539.61
+	BLOCK1:ZONE3 IDEAL LOADS AIR	0.051656	919.17	0.018950	411.92
+	BLOCK1:ZONE1 IDEAL LOADS AIR	0.011230	199.78	0.002490	59.65
+	BLOCK1:ZONE2 IDEAL LOADS AIR	0.037349	664.58	0.006245	163.52
 User-Specified values were used. Design Size values were used if no User-Specified values were provided.
 
 
@@ -316,7 +316,38 @@ SizingPeriod:DesignDay
 Weather Statistics File
 
 		Value
-	None	
+	Reference	CHE_Geneva.067000_IWEC
+	Site:Location	GENEVA - CHE
+	Latitude	{N 46° 15'}
+	Longitude	{E   6°  7'}
+	Time Zone	{GMT +1.0 Hours}
+	Elevation (m) above sea level	416
+	Standard Pressure at Elevation	96426Pa
+	Data Source	IWEC Data
+	WMO Station	067000
+	Weather File Design Conditions	Climate Design Data 2009 ASHRAE Handbook
+	Heating Design Temperature 99.6% (C)	-6.9°
+	Heating Design Temperature 99% (C)	-4.8°
+	Cooling Design Temperature 0.4% (C)	30.8°
+	Cooling Design Temperature 1% (C)	29°
+	Cooling Design Temperature 2% (C)	27.2°
+	Maximum Dry Bulb Temperature (C)	32.1°
+	Maximum Dry Bulb Occurs on	Jul  9
+	Minimum Dry Bulb Temperature (C)	-6.8°
+	Minimum Dry Bulb Occurs on	Jan 26
+	Maximum Dew Point Temperature (C)	19.8°
+	Maximum Dew Point Occurs on	Jul 11
+	Minimum Dew Point Temperature (C)	-12.2°
+	Minimum Dew Point Occurs on	Nov 22
+	ASHRAE Handbook 2009  Cooling Degree-Days (base 10°C)	1283
+	Weather File Cooling Degree-Days (base 10°C)	1182
+	ASHRAE Handbook 2009 Heating Degree-Days (base 18.3°C)	2976
+	Weather File Heating Degree-Days (base 18°C)	2965
+	Köppen Classification	Cfb
+	Köppen Description	Marine west coastal (warm summer, mild winter, rain all year, lat. 35-60°N)
+	Köppen Recommendation	
+	ASHRAE Climate Zone	4A
+	ASHRAE Description	Mixed-Humid
 
 
 ----------------------------------------------------------------------------------------------------
@@ -325,22 +356,22 @@ FOR:	Entire Facility
 Opaque Exterior
 
 		Construction	Reflectance	U-Factor with Film [W/m2-K]	U-Factor no Film [W/m2-K]	Gross Area [m2]	Net Area [m2]	Azimuth [deg]	Tilt [deg]	Cardinal Direction
-	BLOCK1:ZONE3_WALL_5_0_0	_WALL	0.30	0.354	0.374	17.50	12.77	90.00	90.00	E
-	BLOCK1:ZONE3_WALL_6_0_0	_WALL	0.30	0.354	0.374	17.51	17.51	0.00	90.00	N
-	BLOCK1:ZONE1_WALL_2_0_0	_WALL	0.30	0.354	0.374	6.99	5.11	0.00	90.00	N
-	BLOCK1:ZONE2_WALL_2_0_0	_WALL	0.30	0.354	0.374	14.00	14.00	0.00	90.00	N
-	BLOCK1:ZONE2_WALL_3_0_0	_WALL	0.30	0.354	0.374	17.50	12.77	270.00	90.00	W
+	BLOCK1:ZONE3_WALL_5_0_0	_WALL	0.30	0.134	0.137	17.50	14.06	90.00	90.00	E
+	BLOCK1:ZONE3_WALL_6_0_0	_WALL	0.30	0.134	0.137	17.51	17.51	0.00	90.00	N
+	BLOCK1:ZONE1_WALL_2_0_0	_WALL	0.30	0.134	0.137	6.99	5.61	0.00	90.00	N
+	BLOCK1:ZONE2_WALL_2_0_0	_WALL	0.30	0.134	0.137	14.00	14.00	0.00	90.00	N
+	BLOCK1:ZONE2_WALL_3_0_0	_WALL	0.30	0.134	0.137	17.50	14.06	270.00	90.00	W
 
 
 Exterior Fenestration
 
 		Construction	Glass Area [m2]	Frame Area [m2]	Divider Area [m2]	Area of One Opening [m2]	Area of Multiplied Openings [m2]	Glass U-Factor [W/m2-K]	Glass SHGC	Glass Visible Transmittance	Frame Conductance [W/m2-K]	Divider Conductance [W/m2-K]	Shade Control	Parent Surface	Azimuth [deg]	Tilt [deg]	Cardinal Direction
-	BLOCK1:ZONE3_WALL_5_0_0_0_0_0_WIN	1001	4.27	0.37	0.09	4.73	4.73	3.835	0.768	0.821	9.500	9.500	Yes	BLOCK1:ZONE3_WALL_5_0_0	90.00	90.00	E
-	BLOCK1:ZONE1_WALL_2_0_0_0_0_0_WIN	1001	1.62	0.21	0.05	1.88	1.88	3.835	0.768	0.821	9.500	9.500	Yes	BLOCK1:ZONE1_WALL_2_0_0	0.00	90.00	N
-	BLOCK1:ZONE2_WALL_3_0_0_0_0_0_WIN	1001	4.27	0.37	0.09	4.73	4.73	3.835	0.768	0.821	9.500	9.500	Yes	BLOCK1:ZONE2_WALL_3_0_0	270.00	90.00	W
-	Total or Average						11.34	3.835	0.768	0.821							
-	North Total or Average						1.88	3.835	0.768	0.821							
-	Non-North Total or Average						9.45	3.835	0.768	0.821							
+	BLOCK1:ZONE3_WALL_5_0_0_0_0_0_WIN	1001	3.06	0.31	0.08	3.44	3.44	0.780	0.474	0.661	9.500	9.500	Yes	BLOCK1:ZONE3_WALL_5_0_0	90.00	90.00	E
+	BLOCK1:ZONE1_WALL_2_0_0_0_0_0_WIN	1001	1.16	0.18	0.04	1.38	1.38	0.780	0.474	0.661	9.500	9.500	Yes	BLOCK1:ZONE1_WALL_2_0_0	0.00	90.00	N
+	BLOCK1:ZONE2_WALL_3_0_0_0_0_0_WIN	1001	3.06	0.31	0.08	3.44	3.44	0.780	0.474	0.661	9.500	9.500	Yes	BLOCK1:ZONE2_WALL_3_0_0	270.00	90.00	W
+	Total or Average						8.27	0.780	0.474	0.661							
+	North Total or Average						1.38	0.780	0.474	0.661							
+	Non-North Total or Average						6.89	0.780	0.474	0.661							
 
 
 Interior Fenestration
@@ -361,10 +392,10 @@ FOR:	Entire Facility
 Interior Lighting
 
 		Zone	Lighting Power Density [W/m2]	Zone Area [m2]	Total Power [W]	End Use Subcategory	Schedule Name	Scheduled Hours/Week [hr]	Hours/Week > 1% [hr]	Full Load Hours/Week [hr]	Return Air Fraction	Conditioned (Y/N)	Consumption [kWh]
-	BLOCK1:ZONE3	BLOCK1:ZONE3	2.5000	25.17	62.92	General	TM59_DEFAULT_LIGHT	35.00	35.00	31.90	0.0000	Y	104.65
-	BLOCK1:ZONE1	BLOCK1:ZONE1	2.5000	4.87	12.16	General	TM59_DEFAULT_LIGHT	35.00	35.00	30.95	0.0000	Y	19.63
-	BLOCK1:ZONE2	BLOCK1:ZONE2	2.5000	16.83	42.07	General	TM59_DEFAULT_LIGHT	35.00	35.00	30.56	0.0000	Y	67.05
-	Interior Lighting Total		2.5000	46.86	117.16								191.34
+	BLOCK1:ZONE3	BLOCK1:ZONE3	2.5000	25.17	62.92	General	TM59_DEFAULT_LIGHT	35.00	35.00	35.00	0.0000	Y	114.83
+	BLOCK1:ZONE1	BLOCK1:ZONE1	2.5000	4.87	12.16	General	TM59_DEFAULT_LIGHT	35.00	35.00	35.00	0.0000	Y	22.20
+	BLOCK1:ZONE2	BLOCK1:ZONE2	2.5000	16.83	42.07	General	TM59_DEFAULT_LIGHT	35.00	35.00	34.62	0.0000	Y	75.95
+	Interior Lighting Total		2.5000	46.86	117.16								212.97
 
 
 Daylighting
@@ -444,18 +475,18 @@ FOR:	Entire Facility
 Zone Sensible Cooling
 
 		Calculated Design Load [W]	User Design Load [W]	User Design Load per Area [W/m2]	Calculated Design Air Flow [m3/s]	User Design Air Flow [m3/s]	Design Day Name	Date/Time Of Peak {TIMESTAMP}	Thermostat Setpoint Temperature at Peak Load [C]	Indoor Temperature at Peak Load [C]	Indoor Humidity Ratio at Peak Load [kgWater/kgAir]	Outdoor Temperature at Peak Load [C]	Outdoor Humidity Ratio at Peak Load [kgWater/kgAir]	Minimum Outdoor Air Flow Rate [m3/s]	Heat Gain Rate from DOAS [W]
-	BLOCK1:ZONE3	497.88	572.56	22.75	0.032	0.037	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) JUL	7/15 14:30:00	25.00	25.00	0.00835	33.10	0.00948	0.006	0.00
-	BLOCK1:ZONE1	92.98	106.93	21.98	0.006	0.007	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) JUL	7/15 15:00:00	25.00	25.00	0.00837	33.10	0.00948	0.001	0.00
-	BLOCK1:ZONE2	385.13	442.90	26.32	0.025	0.028	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) JUL	7/15 16:30:00	25.00	25.00	0.00830	31.66	0.00948	0.004	0.00
+	BLOCK1:ZONE3	250.19	287.71	11.43	0.016	0.019	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) AUG	8/15 15:00:00	25.00	25.00	0.00861	33.80	0.00933	0.006	0.00
+	BLOCK1:ZONE1	32.88	37.81	7.77	0.002	0.002	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) AUG	8/15 15:00:00	25.00	25.00	0.00885	33.80	0.00933	0.001	0.00
+	BLOCK1:ZONE2	82.45	94.82	5.63	0.005	0.006	SUMMER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12) AUG	8/15 15:00:00	25.00	25.00	0.00901	33.80	0.00933	0.004	0.00
 The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
 
 
 Zone Sensible Heating
 
 		Calculated Design Load [W]	User Design Load [W]	User Design Load per Area [W/m2]	Calculated Design Air Flow [m3/s]	User Design Air Flow [m3/s]	Design Day Name	Date/Time Of Peak {TIMESTAMP}	Thermostat Setpoint Temperature at Peak Load [C]	Indoor Temperature at Peak Load [C]	Indoor Humidity Ratio at Peak Load [kgWater/kgAir]	Outdoor Temperature at Peak Load [C]	Outdoor Humidity Ratio at Peak Load [kgWater/kgAir]	Minimum Outdoor Air Flow Rate [m3/s]	Heat Gain Rate from DOAS [W]
-	BLOCK1:ZONE3	1207.39	1509.24	59.97	0.066	0.083	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.98	0.01280	-6.20	0.00235	0.006	0.00
-	BLOCK1:ZONE1	311.50	389.37	80.03	0.017	0.021	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.99	0.01338	-6.20	0.00235	0.001	0.00
-	BLOCK1:ZONE2	974.86	1218.57	72.40	0.053	0.067	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.98	0.01319	-6.20	0.00235	0.004	0.00
+	BLOCK1:ZONE3	735.33	919.17	36.52	0.041	0.052	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.98	0.01155	-6.20	0.00235	0.006	0.00
+	BLOCK1:ZONE1	159.82	199.78	41.06	0.009	0.011	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.99	0.01187	-6.20	0.00235	0.001	0.00
+	BLOCK1:ZONE2	531.66	664.58	39.49	0.030	0.037	WINTER DESIGN DAY IN GINEVRARESIDENCE (O1-O1:31-12)	1/15 24:00:00	20.00	19.98	0.01176	-6.20	0.00235	0.004	0.00
 The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
 
 
@@ -495,20 +526,20 @@ Demand Controlled Ventilation using Controller:MechanicalVentilation
 Time Not Comfortable Based on Simple ASHRAE 55-2004
 
 		Winter Clothes [hr]	Summer Clothes [hr]	Summer or Winter Clothes [hr]
-	BLOCK1:ZONE3	3636.00	4009.50	3042.50
-	BLOCK1:ZONE1	3561.50	4130.00	3115.50
-	BLOCK1:ZONE2	3482.50	4072.50	3005.50
-	Facility	3807.50	4212.00	3234.50
+	BLOCK1:ZONE3	4182.50	4598.00	4088.50
+	BLOCK1:ZONE1	4244.50	4685.50	4207.50
+	BLOCK1:ZONE2	4206.50	4705.00	4202.50
+	Facility	4320.00	4705.00	4226.00
 Aggregated over the RunPeriods for Weather
 
 
 Time Setpoint Not Met
 
 		During Heating [hr]	During Cooling [hr]	During Occupied Heating [hr]	During Occupied Cooling [hr]
-	BLOCK1:ZONE3	4.50	42.00	0.00	37.00
-	BLOCK1:ZONE1	6.00	31.00	0.00	31.00
-	BLOCK1:ZONE2	4.00	2.50	0.00	2.50
-	Facility	9.00	46.00	0.00	41.00
+	BLOCK1:ZONE3	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE1	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE2	0.00	0.00	0.00	0.00
+	Facility	0.00	0.00	0.00	0.00
 Aggregated over the RunPeriods for Weather
 
 
@@ -518,18 +549,18 @@ FOR:	Entire Facility
 Average Outdoor Air During Occupied Hours
 
 		Average Number of Occupants	Nominal Number of Occupants	Zone Volume [m3]	Mechanical Ventilation [ach]	Infiltration [ach]	AFN Infiltration [ach]	Simple Ventilation [ach]
-	BLOCK1:ZONE3	0.15	0.60	85.57	0.063	0.723	0.000	0.970
-	BLOCK1:ZONE1	0.03	0.12	16.54	0.063	0.723	0.000	0.940
-	BLOCK1:ZONE2	0.10	0.40	57.22	0.063	0.723	0.000	0.955
+	BLOCK1:ZONE3	0.15	0.60	85.57	0.063	0.718	0.000	0.000
+	BLOCK1:ZONE1	0.03	0.12	16.54	0.063	0.718	0.000	0.458
+	BLOCK1:ZONE2	0.10	0.40	57.22	0.063	0.718	0.000	0.413
 Values shown for a single zone without multipliers
 
 
 Minimum Outdoor Air During Occupied Hours
 
 		Average Number of Occupants	Nominal Number of Occupants	Zone Volume [m3]	Mechanical Ventilation [ach]	Infiltration [ach]	AFN Infiltration [ach]	Simple Ventilation [ach]
-	BLOCK1:ZONE3	0.15	0.60	85.57	0.060	0.044	0.000	0.000
-	BLOCK1:ZONE1	0.03	0.12	16.54	0.060	0.044	0.000	0.000
-	BLOCK1:ZONE2	0.10	0.40	57.22	0.059	0.044	0.000	0.000
+	BLOCK1:ZONE3	0.15	0.60	85.57	0.061	0.070	0.000	0.000
+	BLOCK1:ZONE1	0.03	0.12	16.54	0.061	0.070	0.000	0.000
+	BLOCK1:ZONE2	0.10	0.40	57.22	0.061	0.070	0.000	0.000
 Values shown for a single zone without multipliers
 
 
@@ -583,28 +614,28 @@ FOR:	Entire Facility
 Annual Building Sensible Heat Gain Components
 
 		HVAC Zone Eq & Other Sensible Air Heating [kWh]	HVAC Zone Eq & Other Sensible Air Cooling [kWh]	HVAC Terminal Unit Sensible Air Heating [kWh]	HVAC Terminal Unit Sensible Air Cooling [kWh]	HVAC Input Heated Surface Heating [kWh]	HVAC Input Cooled Surface Cooling [kWh]	People Sensible Heat Addition [kWh]	Lights Sensible Heat Addition [kWh]	Equipment Sensible Heat Addition [kWh]	Window Heat Addition [kWh]	Interzone Air Transfer Heat Addition [kWh]	Infiltration Heat Addition [kWh]	Opaque Surface Conduction and Other Heat Addition [kWh]	Equipment Sensible Heat Removal [kWh]	Window Heat Removal [kWh]	Interzone Air Transfer Heat Removal [kWh]	Infiltration Heat Removal [kWh]	Opaque Surface Conduction and Other Heat Removal [kWh]
-	BLOCK1:ZONE3	2666.950	-171.36	0.000	0.000	0.000	0.000	58.638	104.651	0.000	1790.243	0.000	51.214	0.000	0.000	-863.58	0.000	-2742.73	-894.03
-	BLOCK1:ZONE1	694.394	-29.89	0.000	0.000	0.000	0.000	11.374	19.631	0.000	260.355	0.000	10.547	0.000	0.000	-359.32	0.000	-534.06	-73.03
-	BLOCK1:ZONE2	2074.883	-106.17	0.000	0.000	0.000	0.000	39.204	67.055	0.000	1416.947	0.000	35.448	0.000	0.000	-897.21	0.000	-1831.41	-798.75
-	Total Facility	5436.226	-307.43	0.000	0.000	0.000	0.000	109.215	191.337	0.000	3467.546	0.000	97.209	0.000	0.000	-2120.10	0.000	-5108.20	-1765.80
+	BLOCK1:ZONE3	1664.050	-8.37	0.000	0.000	0.000	0.000	64.201	114.832	0.000	195.906	0.000	58.459	0.000	0.000	-152.36	0.000	-1632.46	-304.25
+	BLOCK1:ZONE1	357.069	-1.05	0.000	0.000	0.000	0.000	12.520	22.197	0.000	46.114	0.000	12.568	0.000	0.000	-62.21	0.000	-364.96	-22.25
+	BLOCK1:ZONE2	1185.722	-3.48	0.000	0.000	0.000	0.000	43.332	75.945	0.000	201.451	0.000	41.741	0.000	0.000	-150.78	0.000	-1212.00	-181.94
+	Total Facility	3206.841	-12.90	0.000	0.000	0.000	0.000	120.053	212.974	0.000	443.471	0.000	112.768	0.000	0.000	-365.35	0.000	-3209.41	-508.44
 
 
 Peak Cooling Sensible Heat Gain Components
 
 		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
-	BLOCK1:ZONE3	20-JUL-13:00	0.00	-583.36	0.00	0.00	0.00	0.00	9.62	0.00	0.00	222.18	0.00	71.07	280.50	0.00	-0.00	0.00	0.00	0.00
-	BLOCK1:ZONE1	20-JUL-13:00	0.00	-110.53	0.00	0.00	0.00	0.00	1.83	0.00	0.00	84.21	0.00	13.03	11.46	0.00	-0.00	0.00	0.00	0.00
-	BLOCK1:ZONE2	20-JUL-16:00	0.00	-382.28	0.00	0.00	0.00	0.00	6.56	0.00	0.00	421.43	0.00	50.01	0.00	0.00	-0.00	0.00	0.00	-95.72
-	Total Facility	20-JUL-15:30	0.00	-1065.91	0.00	0.00	0.00	0.00	18.15	0.00	0.00	671.05	0.00	146.11	230.60	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE3	15-JUL-16:00	0.00	-100.27	0.00	0.00	0.00	0.00	9.81	0.00	0.00	95.67	0.00	94.50	0.00	0.00	-0.00	0.00	0.00	-99.71
+	BLOCK1:ZONE1	01-APR-08:30	0.00	-4.18	0.00	0.00	0.00	0.00	2.81	0.00	0.00	0.00	0.00	0.00	57.23	0.00	-6.02	0.00	-49.84	0.00
+	BLOCK1:ZONE2	01-APR-08:30	0.00	-13.98	0.00	0.00	0.00	0.00	9.85	0.00	0.00	0.00	0.00	0.00	184.01	0.00	-12.97	0.00	-166.91	0.00
+	Total Facility	15-JUL-16:00	0.00	-92.05	0.00	0.00	0.00	0.00	18.54	0.00	0.00	191.54	0.00	181.70	0.00	0.00	0.00	0.00	0.00	-299.72
 
 
 Peak Heating Sensible Heat Gain Components
 
 		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
-	BLOCK1:ZONE3	07-FEB-07:00	1533.19	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-508.72	0.00	-958.43	-66.04
-	BLOCK1:ZONE1	07-FEB-07:00	395.39	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-198.34	0.00	-185.81	-11.24
-	BLOCK1:ZONE2	07-FEB-07:00	1237.03	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-507.42	0.00	-647.38	-82.22
-	Total Facility	07-FEB-07:00	3165.61	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-1214.49	0.00	-1791.62	-159.50
+	BLOCK1:ZONE3	01-OCT-00:40	914.80	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-11.81	0.00	-110.41	-792.58
+	BLOCK1:ZONE1	01-OCT-00:40	205.08	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-4.95	0.00	-20.33	-179.79
+	BLOCK1:ZONE2	01-OCT-00:40	656.64	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-11.94	0.00	-76.23	-568.47
+	Total Facility	01-OCT-00:40	1776.51	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	-28.70	0.00	-206.98	-1540.84
 
 
 ----------------------------------------------------------------------------------------------------
