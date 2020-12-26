@@ -130,7 +130,7 @@ class SolveMinProbl:
         w = self.sol
         yhat = (np.dot(A, w) * std)+mean
         y = (y * std)+mean
-        plt.plot(np.linspace(0, 60), np.linspace(0, 60), 'orange')
+        plt.plot(np.linspace(0, 220), np.linspace(0, 220), 'orange')
         plt.scatter(y,yhat, s=5)
         plt.xlabel(label2)
         plt.ylabel(label1)
