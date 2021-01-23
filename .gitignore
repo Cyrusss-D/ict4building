@@ -143,3 +143,5 @@ DesignBuilderModel/~GinevraResidence.dsb.lck
 *.dxf
 *.eio
 *.end
+Optimization/outputdir/BESOS_Errors/eplusout.eio
+*.eio
