@@ -793,7 +793,7 @@
 ! XPS Extruded Polystyrene  - CO2 Blowing- thickness 0,0792
 
   Material,
-    XPS Extruded Polystyrene  - CO2 Blowing_.0792,  !- Name
+    XPS Extruded Polystyrene  - CO2 Blowing_.O792,  !- Name
     Rough,                   !- Roughness
     .0792,                   !- Thickness {m}
     0.034,                   !- Conductivity {W/m-K}
@@ -894,7 +894,7 @@
   Construction,
     _Wall,                   !- Name
     Brickwork Outer_.1,      !- Outside Layer
-    XPS Extruded Polystyrene  - CO2 Blowing_.0792,  !- Layer 2
+    XPS Extruded Polystyrene  - CO2 Blowing_.O792,  !- Layer 2
     Concrete Block (Medium)_.1,  !- Layer 3
     Gypsum Plastering_.O13;  !- Layer 4
 
@@ -904,7 +904,7 @@
     _Wall_Rev,               !- Name
     Gypsum Plastering_.O13,  !- Outside Layer
     Concrete Block (Medium)_.1,  !- Layer 2
-    XPS Extruded Polystyrene  - CO2 Blowing_.0792,  !- Layer 3
+    XPS Extruded Polystyrene  - CO2 Blowing_.O792,  !- Layer 3
     Brickwork Outer_.1;      !- Layer 4
 
 ! Project internal mass
