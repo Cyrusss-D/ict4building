@@ -136,3 +136,10 @@ DesignBuilderModel/~GinevraResidence.dsb.lck
 .idea/misc.xml
 .idea/libraries/R_User_Library.xml
 .idea/ict4building.iml
+*.audit
+*.audit
+*.audit
+*.bnd
+*.dxf
+*.eio
+*.end
